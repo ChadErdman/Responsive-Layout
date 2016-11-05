@@ -19,12 +19,7 @@ MEDIA QUERIES 768PX
     background-color: #f8f8f8;
   }
   
-  #wrapper {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    clear: both;
-  }
+
   
   #main-heading {
     width: 100%;
@@ -39,7 +34,7 @@ MEDIA QUERIES 768PX
     width: inherit;
     text-align: center;
     font-weight: bold; 
-    font-size: xx-large;
+    font-size: 2em;
     margin-bottom: 50px;
     background: #f8f8f8;  
   }
@@ -50,9 +45,7 @@ MEDIA QUERIES 768PX
     height: 225px;
     text-align: left;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    font-style: italic;
+    font-size: 1.3em;
     line-height: 1.4; 
     margin: 0 0 30px 0px;
     padding: 0 50px;
@@ -67,14 +60,8 @@ MEDIA QUERIES 768PX
     max-width: 100%; 
     padding-left: 15px;
   }
-    
-  h1 {
-    display: inline;
-    width: 100%;
-  }
   
   h2 {
-    max-width: 100%;
     text-align: center;
     font-weight: normal; 
   }
@@ -150,7 +137,7 @@ MEDIA QUERIES 768PX
   #gallery li {
     display: inline-block;
     width: 48%;
-    height: 360px;
+    height: 375px;
     float: left;
     margin: 2% 1%;
   }
@@ -161,7 +148,7 @@ MEDIA QUERIES 768PX
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.95em;
-    margin-top: 40px;
+    margin-top: 0px;
   }
    
   #gallery-heading {
@@ -181,7 +168,6 @@ MEDIA QUERIES 768PX
   img {
     display: inline;
     width: 90%;
-    max-width: 100%; 
     margin-bottom: 15px;
     clear: both;
   }
@@ -192,6 +178,18 @@ MEDIA QUERIES 768PX
     margin-bottom: 0;
     
   }
+  
+  
+  
+/**********************************
+  SKILLS
+ ***********************************/
+
+  
+#skills-image {
+    width: 80%;
+}
+  
   
   /**********************************
   FOOTER
@@ -289,18 +287,7 @@ MEDIA QUERIES 1024PX
     background-color: #f8f8f8;
   }
   
-  #wrapper {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 5%;
-    background: #fff;
-    clear: both;
-  }
-  
-  
-  
+
   /**********************************
   HEADING
   ***********************************/
@@ -328,10 +315,8 @@ MEDIA QUERIES 1024PX
     height: 275px;
     float: left;
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-size: .95em;
+    font-size: 1.3em;
     font-weight: bold;
-    font-style: italic;
     line-height: 1.7; 
     margin: 0 25px 0 70px;
     padding-left: 25px;
@@ -376,7 +361,7 @@ MEDIA QUERIES 1024PX
   
   nav {
     width: inherit;
-    padding-right: 70px
+    padding-right: 55px
   }
   
   #footer-nav {
@@ -403,6 +388,7 @@ MEDIA QUERIES 1024PX
     visibility: visible;
     display: inline-block;
     padding-top: 25px;
+    margin: 0 15px;
     }
   
   #back-top {
@@ -445,6 +431,29 @@ MEDIA QUERIES 1024PX
     display: inline-block;
     text-align: center;
     font-family: 'Open Sans', sans-serif;    
+  }
+  
+  
+  
+  /**********************************
+  SKILLS
+ ***********************************/
+
+  
+#skills-header {
+    display: inline-block;
+    font-size: x-large;
+    margin-top: 30px;
+}
+  
+#skills-body {
+    padding: 30px 0;
+  }
+  
+#skills-image {
+    max-height: 700px;
+    margin-top: 80px;
+    padding-bottom: 0;
   }
   
   /**********************************
