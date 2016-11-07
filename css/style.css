@@ -30,13 +30,13 @@ body {
 }
 
 #about {
-  width: auto;
+  display: inline-block;
+  width: 100%;
   text-align: center;
   font-size: 1.20em;
   font-weight: bold;
   font-family: 'Indie Flower', cursive;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin: 40px 0 60px 0;
   padding: 0 5px;
 }
 
@@ -58,7 +58,7 @@ body {
 
 #profile-image {
   display: inline-block;
-  width: auto;
+  width: 80%;
   margin-bottom: 30px;
 }
 
@@ -78,7 +78,7 @@ nav {
 
 .navigation {
   display: inline-block;
-  width: 85%;
+  width: 90%;
   height: 40px;
   text-decoration: none;
   margin: 5px 5px;
